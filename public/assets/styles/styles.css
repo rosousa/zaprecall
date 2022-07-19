@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FB6B6B;
+  /* font-family: 'Recursive', sans-serif;
+  font-family: 'Righteous', cursive; */
+}
+
+.welcome-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.welcome-img {
+  width: 80px;
+}
+
+.welcome-p {
+  font-family: 'Righteous';
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.welcome-button {
+  background-color: #ffffff;
+  width: 246px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Recursive';
+  font-size: 18px;
+  color: #D70900;
+  border-radius: 5px;
+  border: 1px solid #D70900;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+/* -------- CardScreen -------- */
+
+.cards-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.cards-tittle {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin-bottom: 40px
+}
+
+.cards-img {
+  width: 40px;
+}
+
+.cards-p {
+  font-size: 32px;
+  font-family: 'Righteous';
+  color: #ffffff;
+}
+
+.cards-card {
+  background-color: #ffffff;
+  width: 300px;
+  height: 65px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cards-card-p {
+  font-family: 'Recursive';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.cards-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cards-footer > p {
+  font-family: 'Recursive';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
