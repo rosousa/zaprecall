@@ -1,0 +1,237 @@
+.cards-content {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.cards-tittle {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin-bottom: 40px;
+}
+
+.cards-img {
+  width: 40px;
+}
+
+.cards-p {
+  font-size: 32px;
+  font-family: "Righteous";
+  color: #ffffff;
+}
+
+.cards-card {
+  background-color: #ffffff;
+  width: 300px;
+  height: 65px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cards-card-p {
+  font-family: "Recursive";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.cards-footer {
+  position: fixed;
+  background: #ffffff;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cards-footer > p {
+  font-family: "Recursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.cards-card-question {
+  position: relative;
+  background: #ffffd5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 299px;
+  height: 131px;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.cards-card-question-text {
+  font-family: "Recursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+}
+
+.cards-card-setinha {
+  position: absolute;
+  width: 25px;
+  bottom: 0;
+  right: 0;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.cards-card-zap {
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  width: 100%;
+}
+
+.cards-red-answer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 37px;
+  background: #ff3030;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cards-red-answer > p {
+  font-family: "Recursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.cards-orange-answer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 37px;
+  background: #ff922e;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cards-orange-answer > p {
+  text-align: center;
+  font-family: "Recursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.cards-green-answer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 37px;
+  background: #2fbe34;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cards-green-answer > p {
+  font-family: "Recursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.red-answer {
+  color: #ff3030;
+  text-decoration: line-through;
+}
+
+.orange-answer {
+  color: #ff922e;
+  text-decoration: line-through;
+}
+
+.green-answer {
+  color: #2fbe34;
+  text-decoration: line-through;
+}
+
+.hide {
+  display: none;
+}
+
+.hideButtons {
+  display: none;
+}
+
+.hideAnswer {
+  display: none;
+}
+
+.chooses {
+  display: flex;
+  column-gap: 5px;
+}
+
+ion-icon {
+  font-size: 24px;
+}
+
+ion-icon[name="checkmark-circle-sharp"] {
+  color: #2fbe34;
+}
+
+ion-icon[name="help-circle-sharp"] {
+  color: #ff922e;
+}
+
+ion-icon[name="close-circle-sharp"] {
+  color: #ff3030;
+}
+
+.result {
+  width: 200px;
+  padding-bottom: 10px;
+  font-family: "Recursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+}
+
+strong {
+  font-weight: 700;
+}

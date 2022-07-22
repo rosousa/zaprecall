@@ -1,16 +1,15 @@
-import React from 'react';
+import logo from "../assets/img/logo.png";
 
-function WelcomeScreen(){
-  
-  const [hidden, setHidden] = React.useState('hide');
-
-  return(
-    <div class={"welcome-content " + hidden}>
-      <img class="welcome-img" src="./assets/img/logo.png" />
-      <p class="welcome-p">ZapRecall</p>
-      <div class="welcome-button" onClick={() => setHidden('hide')}>Iniciar Recall!</div>
+function WelcomeScreen({ setScreen }) {
+  return (
+    <div className={"welcome-content"}>
+      <img className="welcome-img" src={logo} alt="logo" />
+      <p className="welcome-p">ZapRecall</p>
+      <div className="welcome-button" onClick={() => setScreen(true)}>
+        Iniciar Recall!
+      </div>
     </div>
-  )
+  );
 }
 
 export default WelcomeScreen;
